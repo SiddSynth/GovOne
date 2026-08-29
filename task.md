@@ -1,0 +1,27 @@
+# GOVONE BUILD TASK LIST
+
+- `[x]` **Step 1: Scaffolding & Theme Configuration**
+    - `[x]` Initialize Next.js project with Tailwind CSS v4 in the workspace
+    - `[x]` Configure design tokens (Ashoka Blue, Ivory Canvas, Inter/System Serif fonts)
+    - `[x]` Implement base layouts (Navigation Bar, Footer, Accessibility toggle UI)
+- `[x]` **Step 2: Service Registry & Mock Database Setup**
+    - `[x]` Design data schema for Services, Categories, Departments, and Requirements
+    - `[x]` Implement local database/JSON store for the 12 selected MVP services
+    - `[x]` Populate registry with full checklist details, fees, and steps
+- `[x]` **Step 3: Intent Search & NLP Translation Layer**
+    - `[x]` Implement query processor with Hinglish transliteration dictionary
+    - `[x]` Build intent detection endpoint for mapping natural queries to services
+    - `[x]` Create search results UI with auto-suggestions and zero-result fallbacks
+- `[x]` **Step 4: Unified UI Templates & Categories**
+    - `[x]` Implement landing page with category grids and trending list
+    - `[x]` Implement standardized service details page with document check-offs
+    - `[x]` Implement intermediate trust warning page for external redirects
+- `[x]` **Step 5: Interactive Wizards & Mock Transactions**
+    - `[x]` Build mock DigiLocker OAuth profile picker (Ramesh Kumar flow)
+    - `[x]` Build dynamic eligibility QA wizard (e.g., PMAY housing)
+    - `[x]` Build simulated payment gateway QR-code scanner interface
+    - `[x]` Build application status tracking road map UI
+- `[x]` **Step 6: Verification & Accessibility Audit**
+    - `[x]` Audit focus states, keyboard navigation, and semantic HTML tag usage
+    - `[x]` Check mobile responsiveness and contrast compliance
+    - `[x]` Run test cases and compile walkthrough.md
